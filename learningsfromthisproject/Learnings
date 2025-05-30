@@ -1,0 +1,10 @@
+OpenCV installation
+
+
+
+Webcam Tutorial
+Create a Webcam object using Webcam.getDefault().
+Open the webcam using webcam.open().
+Capture an image using webcam.getImage().
+Save the image to a file using ImageIO.write().
+Close the webcam using webcam.close().

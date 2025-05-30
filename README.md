@@ -2,30 +2,53 @@
 
 This shit easy as hell
 
+
 ## Steps to do this
 
 OpenCV installation
+
 Install Opencv from opencv.org
+
 Extract all the files 
+
 You have to use these two files to integrate opencv into your project
+
 -opencv-4110.jar (You will find this in "opencv\build\java\opencv-4110.jar")
+
 -opencv_java4110.dll (You will find this in "opencv\build\java\x64\opencv_java4110.dll")
+
 Add the two files mentioned in yo project
 
+
 Imports
+
 import javax.swing.*; // GUI window banvayla javax.swing vaparla
+
 import java.awt.image.BufferedImage; // BufferedImage ha Java image la represent karayla
+
 import org.opencv.core.*; // OpenCV madhil basic classes import kele
+
 import org.opencv.videoio.VideoCapture; // Video capture sathi he import kele
+
 import org.opencv.imgproc.Imgproc; // Image processing sathi functions
+
 import org.opencv.objdetect.CascadeClassifier; // Face detection sathi classifier vaparto
+
 import org.opencv.core.MatOfRect; // Rectangles che group face detection sathi
 
-Webcam Tutorial for the repository (https://github.com/sarxos/webcam-capture)
+
+
+## Webcam Tutorial for the repository (https://github.com/sarxos/webcam-capture)
+
 Create a Webcam object using Webcam.getDefault().
+
 Open the webcam using webcam.open().
+
 Capture an image using webcam.getImage().
+
 Save the image to a file using ImageIO.write().
+
 Close the webcam using webcam.close().
+
 
 If you want to know shit about my code i have mentioned everything in the comments
